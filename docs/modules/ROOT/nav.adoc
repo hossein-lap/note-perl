@@ -30,8 +30,3 @@
 *** xref:perl/syntax/syntax-26-file-test-ops.adoc[Syntax :: File Test Operations]
 ** xref:perl/helpers/index.adoc[Helpers]
 
-* xref:golang/index.adoc[Golang]
-** xref:golang/k8s-ingress-loadbalancer.adoc[K8S Ingress LoadBalancer]
-** xref:golang/go.adoc[Basic Syntax]
-** xref:golang/webserver.adoc[Webserver]
-
