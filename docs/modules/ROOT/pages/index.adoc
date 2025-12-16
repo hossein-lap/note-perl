@@ -1,4 +1,5 @@
 = Perl Programming Language -- Home
+:source-language: perl
 
 This is the home page for the Perl language section
 
