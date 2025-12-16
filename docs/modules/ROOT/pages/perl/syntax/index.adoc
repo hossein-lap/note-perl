@@ -1,0 +1,3 @@
+= Perl Programming -- Basic Syntax
+
+This section is still WIP. the xref:perl/syntax/syntax-12-while.adoc[while loop] is the last published section.
