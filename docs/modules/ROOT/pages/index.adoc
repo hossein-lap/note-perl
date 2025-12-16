@@ -1,0 +1,19 @@
+= Perl Programming Language -- Home
+
+This is the home page for the Perl language section
+
+== Simple test!
+
+This is just an example:
+
+.Hello World!
+[source]
+----
+#!/usr/bin/env perl
+
+use warnings;
+use strict;
+
+my $tmp = "Hello, World!\n";
+print $tmp;
+----
