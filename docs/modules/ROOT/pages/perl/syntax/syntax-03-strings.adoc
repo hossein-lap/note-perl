@@ -13,7 +13,7 @@ which is theoretically unlimited.
 
 The following example demonstrates single and double-quoted strings.
 
-[source,perl]
+[source]
 ----
 my $s1 = "string with doubled-quotes";
 my $s2 = 'string with single quote';
@@ -34,7 +34,7 @@ operators such as:
 You can choose any non-alphabetic and non-numeric characters as the delimiters,
 not only just characters `//`.
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -58,7 +58,7 @@ print($s2 ,"\n");
 
 The following example demonstrates string with the `^` delimiter.
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -78,7 +78,7 @@ section for your reference.
 
 To find the number of characters in a string, you use the `length()` function.
 
-[source,perl]
+[source]
 ----
 my $s = "This is a string\n";
 print(length($s),"\n"); #17
@@ -89,7 +89,7 @@ print(length($s),"\n"); #17
 To change the cases of a string you use a pair of functions `lc()` and `uc()`
 that returns the lowercase and uppercase versions of a string.
 
-[source,perl]
+[source]
 ----
 my $s = "Change cases of a string\n";
 print("To upper case:\n");
@@ -114,7 +114,7 @@ functions.
 The following example demonstrates how to use the `index()` and `rindex()`
 functions:
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -130,7 +130,7 @@ print(qq\The substring "$sub" found at position "$p" in string "$s"\,"\n");
 
 To extract a substring out of a string, you use the `substr()` function.
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;

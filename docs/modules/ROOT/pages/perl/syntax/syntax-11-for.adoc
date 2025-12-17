@@ -13,7 +13,7 @@ use the `foreach` keyword in where you use the `for` keyword.
 
 .Loop over elements of an array
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -35,7 +35,7 @@ for (@a) {
 If you replace the `for` keyword by the `foreach` keyword in the above example,
 it works the same.
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -59,7 +59,7 @@ iteration, Perl assigns each element of the array `@a` to the default variable
 If you want to specify an explicit iterator for the loop, you can declare it in
 the `for` loop statement as follows:
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -79,7 +79,7 @@ If you declare an iterator before entering the loop, Perl will restore its
 original value after the loop is terminated. Take a look at the following
 example:
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -110,7 +110,7 @@ In each iteration of the loop, Perl creates an alias instead of a value. In
 other words, if you make any changes to the iterator, the changes also reflect
 in the elements of the array. See the following example:
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -140,7 +140,7 @@ print("After the loop: @b \n");
 Perl also supports for loop in C-style. However, it is not a good practice to
 use the C-style for loop because to code will become less readable.
 
-[source,perl]
+[source]
 ----
 for (initialization; test; step) {
     // code block;
@@ -158,7 +158,7 @@ for (initialization; test; step) {
   step to modify the loop counter.
 
 .C-style for loop:
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -172,7 +172,7 @@ for (my $i = 0; $i <= $#c; $i++) {
 
 It is much more readable if you Perl’s for loop style
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;

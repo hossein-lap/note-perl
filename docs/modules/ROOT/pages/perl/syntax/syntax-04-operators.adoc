@@ -14,7 +14,7 @@ Perl arithmetic operators deal with basic math such as adding, subtracting,
 multiplying, diving, etc. To add (`+`) or subtract (`-`) numbers, you would do
 something as follows:
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -27,7 +27,7 @@ print 20 - 10, "\n"; # 10
 To multiply or divide numbers, you use divide (`/`) and multiply (`*`) operators as follows:
 
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -45,7 +45,7 @@ The multiply and divide operators have higher precedence than add and subtract
 operators, therefore, Perl performs multiplying and dividing before adding and
 subtracting. See the following example:
 
-[source,perl]
+[source]
 ----
 print 10 + 20/2 - 5 * 2 , "\n"; # 10
 ----
@@ -55,7 +55,7 @@ Perl performs 20/2 and 5*2 first, therefore you will get 10 + 10 – 10 = 10.
 You can use brackets `()` to force Perl to perform calculations based on the
 precedence you want as shown in the following example:
 
-[source,perl]
+[source]
 ----
 print (((10 + 20) / 2 - 5) * 2); # 20;
 ----
@@ -64,7 +64,7 @@ To raise one number to the power of another number, you use the exponentiation
 operator.
 
 .Exponentiation operators:
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -80,7 +80,7 @@ It is handy to use the modulo operator (`%`) to check if a number is odd or even
 by dividing it by 2 to get the remainder. If the remainder is zero, the number
 is even, otherwise, the number is odd. See the following example:
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -102,7 +102,7 @@ The bitwise operators perform from right to left. In other words, bitwise
 operators perform from the rightmost bit to the leftmost bit.
 
 .Bitwise operations
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -173,7 +173,7 @@ $a <=> $b
 * *-1* if `$a` is lower than `$b`
 
 .Example
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -227,13 +227,13 @@ Perl provides the concatenation (`.`) and repetition (`x`) operators that allow
 you to manipulate strings
 
 .Concatenation operator (`.`)
-[source,perl]
+[source]
 ----
 print "This is" . " concatenation operator" . "\n";
 ----
 
 .Repetition operators (`x`)
-[source,perl]
+[source]
 ----
 print "a message " x 4, "\n";
 ----
@@ -245,7 +245,7 @@ returns a number of characters that were removed. The `chomp()` operator is
 very useful when dealing with the user’s input because it helps you remove the
 new line character \n from the string that the user entered.
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;

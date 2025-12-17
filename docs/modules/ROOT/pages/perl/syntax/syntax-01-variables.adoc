@@ -24,14 +24,14 @@ the `$` looks like the character S in the scalar. You can use this tip to
 remember when you want to declare a scalar variable.
 
 .Valid variables:
-[source,perl]]
+[source]]
 ----
 $gate = 10;
 $_port = 20;
 ----
 
 .Invalid variables:
-[source,perl]]
+[source]]
 ----
 $4whatever = 20; # no letter or underscore found after dollar sign ($)
 $email-address = "zen@example.com"; # special character (-) found
@@ -45,7 +45,7 @@ Perl doesn’t require you to declare a variable before using it.
 For example, you can introduce a variable in your program and use it right away
 as follows:
 
-[source,perl]
+[source]
 ----
 $a = 10;
 $b = 20;
@@ -56,7 +56,7 @@ print($c);
 In some cases, using a variable without declaring it explicitly may lead to
 problems. Let’s take a look at the following example:
 
-[source,perl]
+[source]
 ----
 $color = 'red';
 print "Your favorite color is " . $colour . "\n";
@@ -75,7 +75,7 @@ In this case, if you use the `my` keyword to declare a variable and try to run
 the script, Perl will issue an error message indicating that a compilation
 error occurred due to the `$colour` variable must be declared explicitly.
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use strict;
@@ -96,7 +96,7 @@ scopes.
 
 Let’s take a look at the following example:
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -129,7 +129,7 @@ If you want to declare global variables that are visible throughout your
 program or from external packages, you can use `our` keyword as shown in the
 following code:
 
-[source,perl]
+[source]
 ----
 our $color = 'red';
 ----
@@ -142,7 +142,7 @@ instead of its name.
 
 Let’s take a look at the following example:
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use strict;

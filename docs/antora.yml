@@ -4,3 +4,11 @@ title: Perl Programming Language
 start_page: index.adoc
 nav:
 - modules/ROOT/nav.adoc
+asciidoc: 
+  attributes: 
+    source-language: perl
+    # skip-front-matter: true
+    # icons: font
+    # icon-set: fi
+    # sectnums: true
+    # toc: false

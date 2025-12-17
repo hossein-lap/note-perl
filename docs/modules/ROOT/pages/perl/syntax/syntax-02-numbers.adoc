@@ -10,7 +10,7 @@ Integers are whole numbers that have no digits after the decimal points i.e
 In Perl, integers are often expressed as decimal integers, base 10. The
 following illustrates some integer numbers:
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -30,7 +30,7 @@ integer numbers Perl uses an underscore character (`_`) instead. In this case,
 
 Take a look at the following example:
 
-[source,perl]
+[source]
 ----
 my $a = 123_763_213;
 print($a, "\n"); # 123763213

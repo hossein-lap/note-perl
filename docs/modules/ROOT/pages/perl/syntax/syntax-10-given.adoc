@@ -11,14 +11,14 @@ matched value, Perl will execute statements in the corresponding `when` clause.
 Perl introduced the `given` statement since version 5.10. In order to use the
 Perl `given` statement, you must use the following pragma:
 
-[source,perl]
+[source]
 ----
 use v5.10;
 ----
 
 Or use the following pragma:
 
-[source,perl]
+[source]
 ----
 use feature "switch";
 ----
@@ -28,7 +28,7 @@ use feature "switch";
 There are several new keywords introduced along with the `given` such as:
 `when`, `break` and `continue`.
 
-[source,perl]
+[source]
 ----
 given (expr) {
      when (expr1) { statement; }
@@ -65,7 +65,7 @@ given (expr) {
 
 The following program asks the user to input an RGB (red, green, blue) color and returns its color code:
 
-[source,perl]
+[source]
 ----
 use v5.10; # at least for Perl 5.10
 #use feature "switch";
@@ -111,7 +111,7 @@ if ($code ne '') {
 From Perl version 5.12, you can use the `when` statement as a statement
 modifier like the following example:
 
-[source,perl]
+[source]
 ----
 given ($color) {
     $code = '#FF0000' when 'RED';
@@ -124,7 +124,7 @@ given ($color) {
 In addition, the given statement returns a value that is the result of the last
 expression.
 
-[source,perl]
+[source]
 ----
 print do {
     given ($color) {
@@ -138,7 +138,7 @@ print do {
 
 More complex example:
 
-[source,perl]
+[source]
 ----
 use v5.12;
 use strict;

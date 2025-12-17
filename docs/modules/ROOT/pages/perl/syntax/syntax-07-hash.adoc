@@ -14,7 +14,7 @@ Like a scalar or an array variable, a hash variable has its own prefix. A hash
 variable must begin with a percent sign (`%`). The prefix `%` looks like
 key/value pair so remember this trick to name the hash variables.
 
-[source,perl]
+[source]
 ----
 %data = ('John Paul', 45, 'Lisa', 30, 'Kumar', 40);
 ----
@@ -25,7 +25,7 @@ differentiate between keys and values and makes the code more elegant.
 When you see the `=>` operator, you know that you are dealing with a hash, not
 a list or an array.
 
-[source,perl]
+[source]
 ----
 my %countries =  ( England => 'English',
                    France  => 'French', 
@@ -54,7 +54,7 @@ The most commonly used operation in the hash.
 .Look up Perl hash values
 
 Use a hash key inside curly brackets `{}` to look up a hash value.
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -71,20 +71,20 @@ print($lang,"\n");
 ----
 
 .Add new element
-[source,perl]
+[source]
 ----
 $langs{'Italy'} = 'Italian';
 ----
 
 .Remove a single key/value pair
-[source,perl]
+[source]
 ----
 delete $langs{'China'};
 ----
 
 .Modify hash elements
 
-[source,perl]
+[source]
 ----
 # add new key value pair
 $langs{'India'} = 'Many languages';
@@ -98,7 +98,7 @@ Perl provides the `keys()` function that allows you to get a list of keys in
 scalars. You can use the `keys()` function in a `for` loop statement to iterate
 the hash elements:
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;

@@ -21,7 +21,7 @@ the Perl `unless` statement is equivalent to the `if not` statement
 ====
 
 .*_unless_* statement
-[source,perl]
+[source]
 ----
 statement unless (condition);
 ----
@@ -32,7 +32,7 @@ Perl executes the statement that precedes the `unless`. If the condition is
 
 If you have more than one statement to execute, you can use the following form
 of the Perl unless statement:
-[source,perl]
+[source]
 ----
 unless (condition) {
     // code block
@@ -42,7 +42,7 @@ unless (condition) {
 If the `condition` evaluates to `false`, Perl executes the code block,
 otherwise, it skips the code block.
 
-[source,perl]
+[source]
 ----
 my $a = 10;
 
@@ -59,7 +59,7 @@ otherwise do that.
 This is where the `unless...else` statement comes into play. See the following
 `unless else` statement:
 
-[source,perl]
+[source]
 ----
 unless (condition) {
     // unless code block
@@ -71,7 +71,7 @@ unless (condition) {
 If the condition is `false`, Perl will execute the `unless` code block,
 otherwise, Perl will execute the `else` code block.
 
-[source,perl]
+[source]
 ----
 my $a = 10;
 unless ($a >= 0) {
@@ -89,7 +89,7 @@ a is greater than or equal 0
 If you have more than one condition for checking with the `unless` statement,
 you can use the `unless elsif else` statement as follows:
 
-[source,perl]
+[source]
 ----
 unless (condition_1) {
     // unless code block
@@ -102,7 +102,7 @@ unless (condition_1) {
 
 You can have many `elsif` clauses in the `unless elsif` statement.
 
-[source,perl]
+[source]
 ----
 my $a = 1;
 
@@ -122,7 +122,7 @@ You should use the `unless` statement with a simple condition to improve the
 code readability, especially when used as a postfix after another statement
 like the following example:
 
-[source,perl]
+[source]
 ----
 my $a = 1;
 print("unless used with a very simple condition ONLY.\n") unless($a < 0);
@@ -136,7 +136,7 @@ requires `else` and/or `elsif` clauses.
 If you take a look at the following code, it is difficult to interpret the
 meaning of the condition.
 
-[source,perl]
+[source]
 ----
 my $a = 1;
 my $b = 10;

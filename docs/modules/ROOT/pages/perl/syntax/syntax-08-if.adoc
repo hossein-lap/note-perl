@@ -3,7 +3,7 @@
 Perl `if` statement allows you to control the execution of your code based on
 conditions. The simplest form of the `if` statement is as follows:
 
-[source,perl]
+[source]
 ----
 if (expression);
 ----
@@ -11,7 +11,7 @@ if (expression);
 In this form, you can put the `if` statement after another statement. Let’s
 take a look at the following example:
 
-[source,perl]
+[source]
 ----
 my $a = 1;
 print("Welcome to Perl if tutorial\n") if ($a == 1);
@@ -29,7 +29,7 @@ The message is only displayed if the expression `$a == 1` evaluates to `true`.
 ****
 
 .Execute multiple statements based on a condition
-[source,perl]
+[source]
 ----
 if (expression) {
    statement;
@@ -50,7 +50,7 @@ Perl provides the `if else` statement that allows you to execute a code block
 if the expression evaluates to `true`, otherwise, the code block inside the
 `else` branch will execute.
 
-[source,perl]
+[source]
 ----
 if (expression) {
    // if code block;
@@ -60,7 +60,7 @@ if (expression) {
 ----
 
 .Example
-[source,perl]
+[source]
 ----
 my $a = 1;
 my $b = 2;
@@ -86,7 +86,7 @@ In some cases, you want to test more than one condition:
 Perl provides the if elsif statement for checking multiple conditions and
 executing the corresponding code block:
 
-[source,perl]
+[source]
 ----
 if (expression) {
     ...

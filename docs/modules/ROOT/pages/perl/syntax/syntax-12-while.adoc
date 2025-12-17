@@ -4,7 +4,7 @@ Perl `while` loop statement executes a code block repeatedly as long as the
 test condition remains `true`. The test condition is checked at the beginning
 of each iteration.
 
-[source,perl]
+[source]
 ----
 while (condition) {
     # code block
@@ -36,7 +36,7 @@ To control the loop, you use the `next` and `last` statements.
 
 Happy New Year Count Down program
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/env perl
 use warnings;
@@ -74,7 +74,7 @@ while ($counter > 0) {
 You often use the while loop statement with the diamond operator `<>` to get
 the user’s input from the command line:
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -111,7 +111,7 @@ print "You entered: @numbers\n";
 
 let’s take a look at the following example:
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;

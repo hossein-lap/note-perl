@@ -24,7 +24,7 @@ begins with the dollar sign (`$`), however, an array variable begins with an
 at-sign (`@`).
 
 .How to declare an array variable
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -43,7 +43,7 @@ working with.
 Like a list, you can access array elements using square brackets `[]` and indices.
 
 .Example
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -69,7 +69,7 @@ For example, `$days[-1]` returns the last element of the array `@days`.
 You can access multiple array elements at a time using the same technique as
 the list slice.
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -87,7 +87,7 @@ print("\n");
 If you treat an array as a scalar, you will get the number of elements in the
 array.
 
-[source,perl]
+[source]
 ----
 my $count = @days;
 ----
@@ -96,7 +96,7 @@ This code causes an error in case you don’t really want to count it but
 accidentally assign an array to a scalar. To be safe, use the `scalar()`
 function.
 
-[source,perl]
+[source]
 ----
 my @days = qw(Mon Tue Wed Thu Fri Sat Sun);
 my $count = scalar @days;
@@ -105,7 +105,7 @@ print($count, "\n");
 
 The operator `$#` returns the highest index of an array.
 
-[source,perl]
+[source]
 ----
 my @days = qw(Mon Tue Wed Thu Fri Sat Sun);
 my $last = $#days;
@@ -119,7 +119,7 @@ assign it a new value. Perl also allows you to change the values of multiple
 elements at a time.
 
 .Example
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -148,7 +148,7 @@ first out (LIFO) philosophy. It works exactly the same as a stack of books. The
 the `pop()` function removes the last element from the end of the array.
 
 .How to use `push()` and `pop()` functions
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -187,7 +187,7 @@ in first out (FIFO) philosophy. It works like a queue of visitors. The
 the `pop()` function removes the last element of the array.
 
 .How to use `unshift()` and `pop()` functions
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -222,7 +222,7 @@ Perl provides the `sort()` function that allows you to sort an array in
 alphabetical or numerical order.
 
 .Sorting an array of strings alphabetically
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;
@@ -238,7 +238,7 @@ The `sort()` function also accepts a block of code that allows you to change
 the sort algorithm. If you want to sort an array in numerical order, you need
 to change the default sorting algorithm.
 
-[source,perl]
+[source]
 ----
 #!/usr/bin/perl
 use warnings;

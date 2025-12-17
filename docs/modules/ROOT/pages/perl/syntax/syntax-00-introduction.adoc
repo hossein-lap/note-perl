@@ -1,7 +1,7 @@
 = Perl Introduction
 
 .Hello World!
-[source,perl]
+[source]
 ----
 #!/bin/perl
 use warnings;
@@ -27,7 +27,7 @@ xref:perl/syntax/syntax-03-strings.adoc[strings], or more complex such as a
 xref:perl/syntax/syntax-05-list.adoc[list]. Data is held as value.
 
 .Some values
-[source,perl]
+[source]
 ----
 10
 20.2
@@ -40,7 +40,7 @@ value. And through the name of the variable, you can process the value.
 The following illustrates some variables in Perl:
 
 .Define variables
-[source,perl]
+[source]
 ----
 $x = 10;
 $y = 20;
@@ -70,7 +70,7 @@ A statement is made up of expressions. A statement is executed by Perl at run-ti
 Each Perl statement must end with a semicolon (`;`). The following example
 shows the statements in Perl:
 
-[source,perl]
+[source]
 ----
 $c = $a + $b;
 print($c);
@@ -83,7 +83,7 @@ to organize statements in the program.
 
 The following example illustrates a block in Perl:
 
-[source,perl]
+[source]
 ----
 {
 	$a = 1;
@@ -111,7 +111,7 @@ read and maintain your programs in the future.
 
 Let’s take a look at the following example:
 
-[source,perl]
+[source]
 ----
 $salary = $salary + 1.05;
 ----
@@ -121,7 +121,7 @@ However, why it does so was not documented.
 
 Therefore the following code with comment is much clearer.
 
-[source,perl]
+[source]
 ----
 # increase salary %5 for employees who achieve KPI
 $salary = $salary + 1.05;
@@ -130,7 +130,7 @@ $salary = $salary + 1.05;
 Perl also allows you to place a comment on the same line as the statement. See
 the following example:
 
-[source,perl]
+[source]
 ----
 $counter = 0; # reset the counter
 ----
@@ -143,7 +143,7 @@ understand.
 Whitespaces are spaces, tabs, and newlines. Perl is very flexible in terms of
 whitespaces usages. Consider the following example:
 
-[source,perl]
+[source]
 ----
 $x = 20;
 $y=20;
