@@ -1,6 +1,6 @@
 name: perl-programming
 version: ~
 title: Perl Programming Language
-# start_page: home-page::index.adoc
+start_page: hos-docs::index.adoc
 nav:
 - modules/ROOT/nav.adoc
