@@ -1,3 +1,0 @@
-= Perl Programming Language
-
-This section is still WIP.
