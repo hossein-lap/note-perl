@@ -1,5 +1,5 @@
 
-* xref:perl/index.adoc[Basic Syntax]
+* xref:perl/syntax/index.adoc[Basic Syntax]
 ** xref:perl/syntax/syntax-00-introduction.adoc[Syntax :: Introduction]
 ** xref:perl/syntax/syntax-01-variables.adoc[Syntax :: Variables]
 ** xref:perl/syntax/syntax-02-numbers.adoc[Syntax :: Numbers]
