@@ -1,5 +1,4 @@
 = Helper functions: Perl language
-:source-language: perl
 
 [NOTE]
 ====
@@ -68,7 +67,7 @@ sub logger {
         print(STDERR "$message\n");
         exit $line;
     }
-
+}
 ----
 
 .How to use it
