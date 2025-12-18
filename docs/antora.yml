@@ -1,14 +1,9 @@
-name: perl-programming
+name: programming-perl
 version: 0.1.0
 title: Perl Programming Language
 start_page: index.adoc
 nav:
 - modules/ROOT/nav.adoc
-asciidoc: 
-  attributes: 
+asciidoc:
+  attributes:
     source-language: perl
-    # skip-front-matter: true
-    # icons: font
-    # icon-set: fi
-    # sectnums: true
-    # toc: false
